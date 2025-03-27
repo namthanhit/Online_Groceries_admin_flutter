@@ -16,6 +16,7 @@ class _WelcomeViewState extends State<WelcomeView> {
   void initState() {
     // TODO: implement
     super.initState();
+    // Ẩn thanh điều hướng và trạng thái khi vào màn hình này
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);
   }
 
@@ -36,6 +37,7 @@ class _WelcomeViewState extends State<WelcomeView> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
+                // Ảnh nền toàn màn hình
                 Image.asset(
                   "assets/img/app_logo.png",
                   width: 60,
@@ -44,6 +46,7 @@ class _WelcomeViewState extends State<WelcomeView> {
                 const SizedBox(
                   height: 8,
                 ),
+                // Tiêu đề chào mừng
                 const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -71,6 +74,7 @@ class _WelcomeViewState extends State<WelcomeView> {
                 const SizedBox(
                   height: 20,
                 ),
+                // Nút bắt đầu (Get Started)
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20),
                   child: RoundButton(

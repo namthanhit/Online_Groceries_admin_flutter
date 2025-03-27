@@ -4,6 +4,7 @@ import '../../common_widget/dropdown.dart';
 import '../../common_widget/round_button.dart';
 import 'login_view.dart';
 
+// Màn hình chọn vị trí người dùng
 class SelectLocationView extends StatefulWidget {
   const SelectLocationView({super.key});
 
@@ -40,6 +41,7 @@ class _SelectLocationViewState extends State<SelectLocationView> {
               )),//image asset
         ),
         backgroundColor: Colors.transparent,
+        // Nội dung chính trong SafeArea
         body: SafeArea(
           child: SingleChildScrollView(
             child: Padding(
@@ -85,7 +87,7 @@ class _SelectLocationViewState extends State<SelectLocationView> {
                   SizedBox(
                     height: media.width * 0.07,
                   ),
-
+                  // Dropdown chọn khu vực (Area)
                   Dropdown(
                       title: "Your Area",
                       placeholder: "Types of your area",

@@ -5,6 +5,7 @@ import '../../common/color_extension.dart';
 import '../../common_widget/line_textfield.dart';
 import '../../common_widget/round_button.dart';
 
+//Màn hình đăng nhập cho ứng dụng
 class LogInView extends StatefulWidget {
   const LogInView({super.key});
 
@@ -13,6 +14,7 @@ class LogInView extends StatefulWidget {
 }
 
 class _LogInViewState extends State<LogInView> {
+  // Khởi tạo ViewModel cho đăng nhập sử dụng GetX
   final loginVM = Get.put(LoginViewModel());
 
   @override
@@ -39,6 +41,7 @@ class _LogInViewState extends State<LogInView> {
               )),
         ),
         backgroundColor: Colors.transparent,
+        // Nội dung chính trong SafeArea
         body: SafeArea(
           child: SingleChildScrollView(
             child: Padding(
@@ -46,6 +49,7 @@ class _LogInViewState extends State<LogInView> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  // Logo ứng dụng ở trung tâm
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -78,6 +82,7 @@ class _LogInViewState extends State<LogInView> {
                   SizedBox(
                     height: media.width * 0.1,
                   ),
+                  // Ô nhập Email
                   LineTextField(
                     title: "Email",
                     placeholder: "Enter your email address",
@@ -87,6 +92,7 @@ class _LogInViewState extends State<LogInView> {
                   SizedBox(
                     height: media.width * 0.07,
                   ),
+                  // Ô nhập Password với chức năng ẩn/hiện mật khẩu
                   Obx(
                     () => LineTextField(
                       title: "Password",
