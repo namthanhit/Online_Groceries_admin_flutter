@@ -37,7 +37,7 @@ class _SelectLocationViewState extends State<SelectLocationView> {
                 "assets/img/back.png",
                 width: 20,
                 height: 20,
-              )),
+              )),//image asset
         ),
         backgroundColor: Colors.transparent,
         body: SafeArea(

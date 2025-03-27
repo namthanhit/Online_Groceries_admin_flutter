@@ -23,7 +23,7 @@ class _LogInViewState extends State<LogInView> {
         color: Colors.white,
         child: Image.asset("assets/img/bottom_bg.png",
             width: media.width, height: media.height, fit: BoxFit.cover),
-      ),
+      ),  //container
       Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.transparent,
