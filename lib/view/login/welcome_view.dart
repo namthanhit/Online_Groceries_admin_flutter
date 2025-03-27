@@ -14,7 +14,7 @@ class WelcomeView extends StatefulWidget {
 class _WelcomeViewState extends State<WelcomeView> {
   @override
   void initState() {
-    // TODO: implement initState
+    // TODO: implement
     super.initState();
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);
   }
