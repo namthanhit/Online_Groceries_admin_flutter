@@ -1,16 +1,47 @@
-# online_groceries_admin
+# Online Groceries Shop - Frontend (Flutter)
 
-A new Flutter project.
+## 📌 Giới thiệu
+Đây là repository chứa mã nguồn frontend của ứng dụng **Online Groceries Shop**, được xây dựng hoàn toàn bằng **Flutter**.
 
-## Getting Started
+### Thành viên
+- **Lê Thành Nam**
+- **Bùi Ngọc Đức**
+- **Vũ Thành Dương**
+- **Nguyễn Việt Quang**
+- 
+## ⚙️ Công nghệ sử dụng
+- **Flutter** (Dart)
 
-This project is a starting point for a Flutter application.
+## 🚀 Tính năng chính
+- **Đăng ký & Đăng nhập**
+- **Duyệt sản phẩm**
+- **Thêm vào giỏ hàng & Thanh toán**
+- **Theo dõi đơn hàng**
+- **Thông báo đẩy**
 
-A few resources to get you started if this is your first Flutter project:
+## 🔧 Cài đặt và chạy ứng dụng
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Clone repository
+```bash
+git clone https://github.com/namthanhit/Online_Groceries_admin_flutter
+cd Online_Groceries_admin_flutter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+
+### 2. Cài đặt dependencies
+```bash
+flutter pub get
+```
+
+### 3. Chạy ứng dụng
+```bash
+flutter run
+```
+
+
+## 🤝 Đóng góp
+Nếu bạn muốn đóng góp, vui lòng tạo pull request hoặc mở issue để thảo luận.
+
+## 📜 License
+MIT
+
