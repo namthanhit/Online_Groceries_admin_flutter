@@ -1,4 +1,4 @@
-# Online Groceries Shop - Frontend (Flutter)
+# Online Groceries Admin Shop - Frontend (Flutter) 
 
 ## 📌 Giới thiệu
 Đây là repository chứa mã nguồn frontend của ứng dụng **Online Groceries Shop**, được xây dựng hoàn toàn bằng **Flutter**.
